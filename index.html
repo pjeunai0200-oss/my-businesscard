@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>따뜻한 손뜨개 공방 - 모바일 명함 & 이력서</title>
+
+    <!-- [OG 태그] 카카오톡, 페이스북 등에 링크를 보낼 때 예쁜 미리보기가 뜹니다 -->
+    <!-- ⚠️ 배포 후, 아래 "https://내사이트주소.netlify.app" 부분을 실제 주소로 바꿔주세요! -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="🧶 동글동글 털실공방 | 박지은">
+    <meta property="og:description" content="한 땀 한 땀 정성을 담아, 포근한 일상을 선물하는 손뜨개 공방입니다.">
+    <meta property="og:image" content="https://내사이트주소.netlify.app/og-thumbnail.png">
+    <meta property="og:url" content="https://내사이트주소.netlify.app">
+
+    <!-- [트위터/X 카드] 트위터(X)에서 공유할 때 큰 이미지 미리보기 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="🧶 동글동글 털실공방 | 박지은">
+    <meta name="twitter:description" content="한 땀 한 땀 정성을 담아, 포근한 일상을 선물하는 손뜨개 공방입니다.">
+    <meta name="twitter:image" content="https://내사이트주소.netlify.app/og-thumbnail.png">
+
+    <!-- 기본 검색엔진용 설명 -->
+    <meta name="description" content="동글동글 털실공방 박지은 사장님의 웹 명함 & 이력서입니다. 따뜻한 손뜨개 공방을 만나보세요.">
+
+    <!-- 구글 폰트: Gowun Dodum(고운 돋움) - 귀엽고 따뜻한 한글 글꼴 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Fredoka:wght@300..700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS 스타일시트 연결 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 전체 화면을 감싸는 컨테이너 -->
+    <div class="app-container">
+
+        <!-- -------------------------------------------------- -->
+        <!-- [1] 명함 영역 (기본 화면) -->
+        <!-- -------------------------------------------------- -->
+        <div class="card-view">
+            <!-- 귀여운 털실 데코레이션 요소들 -->
+            <div class="deco-yarn-1">🧶</div>
+            <div class="deco-yarn-2">🪡</div>
+
+            <div class="card-content">
+                <!-- 명함용 프로필 사진이 들어갈 빈 자리 (여기로 사진이 이동함) -->
+                <div class="photo-placeholder-card"></div>
+
+                <!-- [수정 가능] 공방 및 사장님 소개 내용 -->
+                <div class="card-info">
+                    <span class="badge">공방 지기</span>
+                    <h1 class="owner-name">박지은</h1>
+                    <p class="shop-name">동글동글 털실공방 (차리고싶음) </p>
+
+                    <hr class="divider">
+
+                    <p class="intro-text">
+                        "한 땀 한 땀 정성을 담아,<br>
+                        포근한 일상을 선물하는 손뜨개 공방입니다."
+                    </p>
+
+                    <!-- 연락처 및 SNS 정보 (귀여운 아이콘과 함께) -->
+                    <div class="contact-links">
+                        <a href="tel:010-1234-5678" class="contact-item">
+                            <span class="icon">📞</span>
+                            <span>010-7671-0000</span>
+                        </a>
+                        <a href="mailto:hello@yarnworkshop.com" class="contact-item">
+                            <span class="icon">✉️</span>
+                            <span>magicmissile042@gmail.com</span>
+                        </a>
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <span>인천시 남동구 따뜻길 24, 1층</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------------------- -->
+        <!-- [2] 이력서 영역 (버튼 클릭 시 보임) -->
+        <!-- -------------------------------------------------- -->
+        <div class="resume-view">
+            <div class="resume-content">
+                <!-- 이력서 헤더 영역 -->
+                <div class="resume-header">
+                    <!-- 이력서용 프로필 사진이 들어갈 빈 자리 (여기로 사진이 이동함) -->
+                    <div class="photo-placeholder-resume"></div>
+
+                    <div class="resume-title-block">
+                        <h2 class="resume-owner-name">박지은</h2>
+                        <p class="resume-sub">'동글동글 털실공방 대표 & 공예 강사'이고 싶음</p>
+                    </div>
+                </div>
+
+                <hr class="resume-divider">
+
+                <!-- 이력서 상세 정보 (스크롤 가능하도록 배치) -->
+                <div class="resume-body">
+                    <!-- 섹션 1: 자기소개 -->
+                    <div class="resume-section">
+                        <h3>✏️ 한 줄 소개</h3>
+                        <p>10년 동안 실과 바늘을 잡으며 따뜻한 온기를 나누어 오고싶음. 초보자도 쉽게 배울 수 있는 재미있는 손뜨개 클래스를 운영하며 다양한 소품을 창작하고 싶음.</p>
+                    </div>
+
+                    <!-- 섹션 2: 경력 및 활동 -->
+                    <div class="resume-section">
+                        <h3>💼 주요 경력이 있고 싶음</h3>
+                        <ul class="resume-list">
+                            <li>
+                                <span class="date">경력</span>
+                                <div class="desc"><strong>동글동글 털실공방</strong> 대표 운영안함</div>
+                            </li>
+                            <li>
+                                <span class="date">2020 ~ 2022</span>
+                                <div class="desc">문화센터 <strong>손뜨개 전문 강사인적없음</strong> 출강한적없음</div>
+                            </li>
+                            <li>
+                                <span class="date">2018 ~ 2020</span>
+                                <div class="desc">'니트앤피플' 디자인팀 수석 디자이너인적없음</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 섹션 3: 보유 자격 및 보유 기술 -->
+                    <div class="resume-section">
+                        <h3>🏆 자격 및 교육</h3>
+                        <ul class="resume-list">
+                            <li>
+                                <span class="date">2021</span>
+                                <div class="desc">한국손뜨개협회 <strong>손뜨개 지도사 1급</strong> 취득 한적없음</div>
+                            </li>
+                            <li>
+                                <span class="date">2019</span>
+                                <div class="desc"> 꿈에서 보그 과정 입문/강사 과정 수료 (대바늘, 코바늘)</div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 섹션 4: 전문 분야 (기술 태그) -->
+                    <div class="resume-section">
+                        <h3>✨ 전문 분야</h3>
+                        <div class="skills-tags">
+                            <span class="tag">#대바늘 인형</span>
+                            <span class="tag">#코바늘 가방</span>
+                            <span class="tag">#겨울 스웨터</span>
+                            <span class="tag">#초보자 눈높이 클래스</span>
+                            <span class="tag">#감성 인테리어 소품</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------------------------------- -->
+        <!-- [3] 공통 프로필 사진 (실제 애니메이션으로 움직이는 사진) -->
+        <!-- -------------------------------------------------- -->
+        <div class="floating-photo-container">
+            <img src="avatar.png" id="main-avatar" class="floating-avatar" alt="김다정 사장님 프로필">
+        </div>
+
+        <!-- -------------------------------------------------- -->
+        <!-- [4] 명함 <-> 이력서 전환 버튼 (귀여운 단추 모양) -->
+        <!-- -------------------------------------------------- -->
+        <button id="toggle-btn" class="toggle-btn">
+            <!-- 단추 구멍 디자인 -->
+            <span class="button-threads"></span>
+            <span class="button-text">이력서 보기</span>
+        </button>
+
+    </div>
+
+    <!-- 자바스크립트 연결 -->
+    <script src="script.js"></script>
+</body>
+
+</html>
